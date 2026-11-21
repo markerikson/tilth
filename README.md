@@ -1,5 +1,11 @@
 # tilth
 
+> **Archive copy.** This is a preserved copy of [jahala/tilth](https://github.com/jahala/tilth), which stopped being reachable in November 2026. `main` is the upstream v0.15.0 release commit (`c766a5b`, the same source as the published [`tilth` 0.15.0](https://crates.io/crates/tilth/0.15.0) and [`tilth-core` 0.15.0](https://crates.io/crates/tilth-core/0.15.0) crates) plus this note. The full upstream history and the release tags v0.1.0 through v0.15.0 are included. Tags v0.10.0 and later were recreated from the commit IDs recorded in the crates.io packages.
+>
+> The `pr196-scout-list` branch is the unmerged upstream PR #196 (the `tilth_scout` tool, on a 0.9.0 base), kept for reference.
+>
+> tilth was written by Jahala and contributors and is MIT licensed (see [LICENSE](LICENSE)). This copy is not maintained, and the badges and links below still point at the original repository.
+
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/jahala/tilth/badge)](https://scorecard.dev/viewer/?uri=github.com/jahala/tilth)
 
 **Smart code reading for humans and AI agents.** tilth parses your code with tree-sitter and answers questions that text search can't. It shows where a symbol is defined, who calls it, what it calls, what depends on a file, and what changed at function level.
